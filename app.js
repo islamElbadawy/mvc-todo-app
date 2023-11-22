@@ -5,7 +5,7 @@ const methodOverride = require('method-override');
 const router = require('./routes/task');
 
 mongoose.connect(
-	'mongodb://127.0.0.1:27017/ToDo'
+	'mongodb+srv://admin:admin@cluster0.yvsniue.mongodb.net/?retryWrites=true&w=majority'
 );
 
 app.use(
